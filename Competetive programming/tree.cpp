@@ -6,7 +6,6 @@ struct node{
     int data;
     node *left, *right;
 }*root = NULL;
-
 node *addNode(int data){
     node *newnode = new node;
     newnode -> data = data;
