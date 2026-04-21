@@ -1,0 +1,14 @@
+# Build artifacts
+*.exe
+*.out
+*.o
+*.obj
+
+# VS Code workspace settings
+.vscode/
+
+# Build directories
+build/
+
+# Temporary files
+tempCodeRunnerFile.cpp
