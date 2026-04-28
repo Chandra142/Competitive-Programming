@@ -12,7 +12,7 @@ void addEdge(int u, int v)
 {
     graph[u].push_back(v);
 }
-
+//traversing by bfs
 void bfs(int s)
 {
     bool vis[5] = {};
