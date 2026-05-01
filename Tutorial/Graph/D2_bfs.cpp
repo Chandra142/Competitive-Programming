@@ -23,7 +23,7 @@ class Graph{
             Q.pop();
             cout<<u<<" ";
             for(int v: l[u]){
-                if(!vis[v]){
+                if(vis[v] == false){
                     vis[v] = true;
                     Q.push(v);
                 }
@@ -34,7 +34,7 @@ class Graph{
 };
 int main(){
     Graph g(5);
-    g.addEdge(0,1);
+    g.addEdge(0,1); //inserting node with their edges
     g.addEdge(1,2);
     g.addEdge(1,3);
     g.addEdge(2,3);
